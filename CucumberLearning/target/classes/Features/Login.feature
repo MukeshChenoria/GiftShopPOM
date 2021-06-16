@@ -26,7 +26,7 @@ And user is still on the login page
 			|	name7	|									|									|
 			
 
-Scenario Outline: Test login function of Gift Shop Application with correct credentials.
+Scenario: Test login function of Gift Shop Application with correct credentials.
 		Given Environment Setup2.
 		Given user is on the login page.
 		Then User enters correct username and password.
